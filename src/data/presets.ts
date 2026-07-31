@@ -37,7 +37,7 @@ export const DEFAULT_FLYER_DATA: FlyerData = {
   condicionPosY: 0,
   logoSubtitulo: 'Especializado en Tecnología',
   formatoForma: 'poster',
-  estiloColor: 'neon_blue',
+  estiloColor: 'royal_blue',
 };
 
 export const PRESET_LAPTOPS: { name: string; data: Partial<FlyerData> }[] = [

@@ -249,10 +249,10 @@ export const GeneradorFlyer: React.FC = () => {
             </label>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
               {[
-                { id: 'neon_blue', label: '🔵 Azul Cyber' },
-                { id: 'royal_blue', label: '🟦 Azul Real' },
+                { id: 'royal_blue', label: '👑 Azul Real & Oro' },
                 { id: 'gold_black', label: '🟡 Oro Luxury' },
-                { id: 'cyber_purple', label: '🟣 Neón Purpura' },
+                { id: 'neon_blue', label: '🔵 Neón Cyber' },
+                { id: 'cyber_purple', label: '🟣 Neón Púrpura' },
                 { id: 'emerald_pro', label: '🟢 Verde Esmeralda' },
                 { id: 'ruby_red', label: '🔴 Rojo Rubí / Oferta' },
               ].map((thm) => (
@@ -260,7 +260,7 @@ export const GeneradorFlyer: React.FC = () => {
                   key={thm.id}
                   onClick={() => handleInputChange('estiloColor', thm.id)}
                   className={`px-2.5 py-1.5 rounded-xl text-[11px] font-bold transition border ${
-                    (flyerData.estiloColor || 'neon_blue') === thm.id
+                    (flyerData.estiloColor || 'royal_blue') === thm.id
                       ? 'bg-indigo-600 text-white border-amber-400 shadow'
                       : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
                   }`}

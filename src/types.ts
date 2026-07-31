@@ -76,5 +76,5 @@ export interface FlyerData {
   tituloRegalia?: string; // e.g. "Audífonos Gamer 7.1" or "Mouse Inalámbrico"
   imagenRegaliaEscala?: number; // scale percentage for 2nd image (default 100)
   formatoForma?: 'poster' | 'instagram' | 'tiktok_story' | 'facebook_banner';
-  estiloColor?: 'neon_blue' | 'gold_black' | 'cyber_purple' | 'emerald_pro' | 'ruby_red' | 'royal_blue';
+  estiloColor?: 'royal_blue' | 'neon_blue' | 'gold_black' | 'cyber_purple' | 'emerald_pro' | 'ruby_red';
 }
